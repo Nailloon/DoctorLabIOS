@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  DoctorLabIOS
+
+  Created by user225687 on 11/16/23.
+  
+*/
+"welcome_message" = "Hi, ";
+"hello" = "Hello,";
+

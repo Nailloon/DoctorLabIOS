@@ -11,6 +11,10 @@
 		F76B108F2B06ADA100EBB501 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B108E2B06ADA100EBB501 /* ContentView.swift */; };
 		F76B10912B06ADA100EBB501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76B10902B06ADA100EBB501 /* Assets.xcassets */; };
 		F76B10942B06ADA100EBB501 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76B10932B06ADA100EBB501 /* Preview Assets.xcassets */; };
+		F76B10A12B06B5EF00EBB501 /* FontsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B10A02B06B5EF00EBB501 /* FontsFile.swift */; };
+		F76B10A32B06B92B00EBB501 /* WelcomeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B10A22B06B92B00EBB501 /* WelcomeBanner.swift */; };
+		F76B10A52B06BB6A00EBB501 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F76B10A42B06BB6A00EBB501 /* Localizable.strings */; };
+		F76B10AC2B06C0CC00EBB501 /* SizesFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B10AB2B06C0CC00EBB501 /* SizesFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		F76B108E2B06ADA100EBB501 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F76B10902B06ADA100EBB501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F76B10932B06ADA100EBB501 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F76B10A02B06B5EF00EBB501 /* FontsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsFile.swift; sourceTree = "<group>"; };
+		F76B10A22B06B92B00EBB501 /* WelcomeBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBanner.swift; sourceTree = "<group>"; };
+		F76B10A42B06BB6A00EBB501 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		F76B10AB2B06C0CC00EBB501 /* SizesFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizesFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				F76B108C2B06ADA100EBB501 /* DoctorLabIOSApp.swift */,
 				F76B108E2B06ADA100EBB501 /* ContentView.swift */,
-				F76B10902B06ADA100EBB501 /* Assets.xcassets */,
 				F76B10922B06ADA100EBB501 /* Preview Content */,
+				F76B10A02B06B5EF00EBB501 /* FontsFile.swift */,
+				F76B10A22B06B92B00EBB501 /* WelcomeBanner.swift */,
+				F76B10A42B06BB6A00EBB501 /* Localizable.strings */,
+				F76B10902B06ADA100EBB501 /* Assets.xcassets */,
+				F76B10AB2B06C0CC00EBB501 /* SizesFile.swift */,
 			);
 			path = DoctorLabIOS;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76B10942B06ADA100EBB501 /* Preview Assets.xcassets in Resources */,
+				F76B10A52B06BB6A00EBB501 /* Localizable.strings in Resources */,
 				F76B10912B06ADA100EBB501 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76B10A12B06B5EF00EBB501 /* FontsFile.swift in Sources */,
+				F76B10A32B06B92B00EBB501 /* WelcomeBanner.swift in Sources */,
 				F76B108F2B06ADA100EBB501 /* ContentView.swift in Sources */,
+				F76B10AC2B06C0CC00EBB501 /* SizesFile.swift in Sources */,
 				F76B108D2B06ADA100EBB501 /* DoctorLabIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
