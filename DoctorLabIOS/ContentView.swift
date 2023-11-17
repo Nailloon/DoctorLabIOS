@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack{
+        VStack{
             WelcomeBanner(userName: "James")
+            DoctorAppointment(doctor: "drsyahir", doctorCategory: "generaldoctor", day: "dayJune", time: "timeJune")
         }.frame(width: SizeManager.allScreenWidth, height: SizeManager.allScreenHeight)
         .background(.white)
     }

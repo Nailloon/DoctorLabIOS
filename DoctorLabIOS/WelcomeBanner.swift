@@ -17,7 +17,7 @@ struct WelcomeBanner: View {
             Spacer()
             Image("Frame")
                 .frame(width: SizeManager.smallIconSize, height: SizeManager.smallIconSize)
-        }.padding(0).frame(width: 327)
+        }.padding(.trailing, 24).frame(width: SizeManager.windowWidth)
     }
 }
 struct WelcomeBanner_Previews: PreviewProvider {
