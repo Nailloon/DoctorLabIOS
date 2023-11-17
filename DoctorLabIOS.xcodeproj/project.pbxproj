@@ -19,6 +19,7 @@
 		F76B10BA2B06E89E00EBB501 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F76B10B12B06E16D00EBB501 /* Poppins-Bold.ttf */; };
 		F76B10BB2B06E8A200EBB501 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F76B10B52B06E1B200EBB501 /* Poppins-Medium.ttf */; };
 		F76B10BC2B06E8A400EBB501 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F76B10AF2B06E15F00EBB501 /* Poppins-SemiBold.ttf */; };
+		F76B10C02B06FB8D00EBB501 /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B10BF2B06FB8D00EBB501 /* SearchButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F76B10B12B06E16D00EBB501 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		F76B10B52B06E1B200EBB501 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		F76B10B72B06E36A00EBB501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F76B10BF2B06FB8D00EBB501 /* SearchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,19 +70,16 @@
 		F76B108B2B06ADA100EBB501 /* DoctorLabIOS */ = {
 			isa = PBXGroup;
 			children = (
+				F76B10C32B06FC9900EBB501 /* AuxiliaryTools */,
+				F76B10C22B06FC6100EBB501 /* Fonts */,
 				F76B10B72B06E36A00EBB501 /* Info.plist */,
-				F76B10AF2B06E15F00EBB501 /* Poppins-SemiBold.ttf */,
 				F76B108C2B06ADA100EBB501 /* DoctorLabIOSApp.swift */,
 				F76B108E2B06ADA100EBB501 /* ContentView.swift */,
-				F76B10B52B06E1B200EBB501 /* Poppins-Medium.ttf */,
-				F76B10B12B06E16D00EBB501 /* Poppins-Bold.ttf */,
 				F76B10922B06ADA100EBB501 /* Preview Content */,
-				F76B10A02B06B5EF00EBB501 /* FontsFile.swift */,
 				F76B10A22B06B92B00EBB501 /* WelcomeBanner.swift */,
-				F76B10A42B06BB6A00EBB501 /* Localizable.strings */,
 				F76B10902B06ADA100EBB501 /* Assets.xcassets */,
-				F76B10AB2B06C0CC00EBB501 /* SizesFile.swift */,
 				F76B10AD2B06D2FD00EBB501 /* DoctorsAppointment.swift */,
+				F76B10BF2B06FB8D00EBB501 /* SearchButton.swift */,
 			);
 			path = DoctorLabIOS;
 			sourceTree = "<group>";
@@ -91,6 +90,26 @@
 				F76B10932B06ADA100EBB501 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F76B10C22B06FC6100EBB501 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F76B10B52B06E1B200EBB501 /* Poppins-Medium.ttf */,
+				F76B10AF2B06E15F00EBB501 /* Poppins-SemiBold.ttf */,
+				F76B10B12B06E16D00EBB501 /* Poppins-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F76B10C32B06FC9900EBB501 /* AuxiliaryTools */ = {
+			isa = PBXGroup;
+			children = (
+				F76B10AB2B06C0CC00EBB501 /* SizesFile.swift */,
+				F76B10A02B06B5EF00EBB501 /* FontsFile.swift */,
+				F76B10A42B06BB6A00EBB501 /* Localizable.strings */,
+			);
+			path = AuxiliaryTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76B10C02B06FB8D00EBB501 /* SearchButton.swift in Sources */,
 				F76B10A12B06B5EF00EBB501 /* FontsFile.swift in Sources */,
 				F76B10A32B06B92B00EBB501 /* WelcomeBanner.swift in Sources */,
 				F76B108F2B06ADA100EBB501 /* ContentView.swift in Sources */,
