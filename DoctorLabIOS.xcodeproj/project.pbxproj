@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F72CCEE12B0A8961009F1522 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72CCEE02B0A8961009F1522 /* CircleButton.swift */; };
+		F72CCEE32B0A98A8009F1522 /* RenderCircleButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72CCEE22B0A98A8009F1522 /* RenderCircleButtons.swift */; };
+		F72CCEE52B0AA816009F1522 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72CCEE42B0AA816009F1522 /* CustomColors.swift */; };
 		F76B108D2B06ADA100EBB501 /* DoctorLabIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B108C2B06ADA100EBB501 /* DoctorLabIOSApp.swift */; };
 		F76B108F2B06ADA100EBB501 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B108E2B06ADA100EBB501 /* ContentView.swift */; };
 		F76B10912B06ADA100EBB501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76B10902B06ADA100EBB501 /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F72CCEE02B0A8961009F1522 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		F72CCEE22B0A98A8009F1522 /* RenderCircleButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderCircleButtons.swift; sourceTree = "<group>"; };
+		F72CCEE42B0AA816009F1522 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		F76B10892B06ADA100EBB501 /* DoctorLabIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorLabIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76B108C2B06ADA100EBB501 /* DoctorLabIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorLabIOSApp.swift; sourceTree = "<group>"; };
 		F76B108E2B06ADA100EBB501 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +86,8 @@
 				F76B10902B06ADA100EBB501 /* Assets.xcassets */,
 				F76B10AD2B06D2FD00EBB501 /* DoctorsAppointment.swift */,
 				F76B10BF2B06FB8D00EBB501 /* SearchButton.swift */,
+				F72CCEE02B0A8961009F1522 /* CircleButton.swift */,
+				F72CCEE22B0A98A8009F1522 /* RenderCircleButtons.swift */,
 			);
 			path = DoctorLabIOS;
 			sourceTree = "<group>";
@@ -108,6 +116,7 @@
 				F76B10AB2B06C0CC00EBB501 /* SizesFile.swift */,
 				F76B10A02B06B5EF00EBB501 /* FontsFile.swift */,
 				F76B10A42B06BB6A00EBB501 /* Localizable.strings */,
+				F72CCEE42B0AA816009F1522 /* CustomColors.swift */,
 			);
 			path = AuxiliaryTools;
 			sourceTree = "<group>";
@@ -187,9 +196,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76B10C02B06FB8D00EBB501 /* SearchButton.swift in Sources */,
+				F72CCEE32B0A98A8009F1522 /* RenderCircleButtons.swift in Sources */,
 				F76B10A12B06B5EF00EBB501 /* FontsFile.swift in Sources */,
 				F76B10A32B06B92B00EBB501 /* WelcomeBanner.swift in Sources */,
+				F72CCEE12B0A8961009F1522 /* CircleButton.swift in Sources */,
 				F76B108F2B06ADA100EBB501 /* ContentView.swift in Sources */,
+				F72CCEE52B0AA816009F1522 /* CustomColors.swift in Sources */,
 				F76B10AC2B06C0CC00EBB501 /* SizesFile.swift in Sources */,
 				F76B10AE2B06D2FD00EBB501 /* DoctorsAppointment.swift in Sources */,
 				F76B108D2B06ADA100EBB501 /* DoctorLabIOSApp.swift in Sources */,

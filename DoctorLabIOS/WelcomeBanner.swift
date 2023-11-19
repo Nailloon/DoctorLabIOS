@@ -11,8 +11,8 @@ struct WelcomeBanner: View {
     var body: some View {
         HStack(alignment: .center){
             VStack(alignment: .leading, spacing: 6){
-                Text(NSLocalizedString("hello", comment: "")).font(Fonts.hello)
-                Text(NSLocalizedString("welcome_message", comment: "")+userName).font(Fonts.hi)
+                Text(LocalizedStringKey("hello")).font(Fonts.hello).foregroundColor(CustomColors.grey)
+                Text(LocalizedStringKey("welcome_message")).font(Fonts.hi)+Text(userName).font(Fonts.hi).foregroundColor(CustomColors.darkBlue)
             }
             Spacer()
             Image("Frame")
