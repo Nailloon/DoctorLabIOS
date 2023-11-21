@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88C08DDC2B0CFC4700E3D0C5 /* RenderDoctorCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C08DDB2B0CFC4700E3D0C5 /* RenderDoctorCards.swift */; };
+		88E75A152B0C7E3B007EDD0D /* DoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E75A142B0C7E3B007EDD0D /* DoctorCard.swift */; };
 		F72CCEE12B0A8961009F1522 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72CCEE02B0A8961009F1522 /* CircleButton.swift */; };
 		F72CCEE32B0A98A8009F1522 /* RenderCircleButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72CCEE22B0A98A8009F1522 /* RenderCircleButtons.swift */; };
 		F72CCEE52B0AA816009F1522 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72CCEE42B0AA816009F1522 /* CustomColors.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88C08DDB2B0CFC4700E3D0C5 /* RenderDoctorCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderDoctorCards.swift; sourceTree = "<group>"; };
+		88E75A142B0C7E3B007EDD0D /* DoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
 		F72CCEE02B0A8961009F1522 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		F72CCEE22B0A98A8009F1522 /* RenderCircleButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderCircleButtons.swift; sourceTree = "<group>"; };
 		F72CCEE42B0AA816009F1522 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				F76B10BF2B06FB8D00EBB501 /* SearchButton.swift */,
 				F72CCEE02B0A8961009F1522 /* CircleButton.swift */,
 				F72CCEE22B0A98A8009F1522 /* RenderCircleButtons.swift */,
+				88E75A142B0C7E3B007EDD0D /* DoctorCard.swift */,
+				88C08DDB2B0CFC4700E3D0C5 /* RenderDoctorCards.swift */,
 			);
 			path = DoctorLabIOS;
 			sourceTree = "<group>";
@@ -195,11 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E75A152B0C7E3B007EDD0D /* DoctorCard.swift in Sources */,
 				F76B10C02B06FB8D00EBB501 /* SearchButton.swift in Sources */,
 				F72CCEE32B0A98A8009F1522 /* RenderCircleButtons.swift in Sources */,
 				F76B10A12B06B5EF00EBB501 /* FontsFile.swift in Sources */,
 				F76B10A32B06B92B00EBB501 /* WelcomeBanner.swift in Sources */,
 				F72CCEE12B0A8961009F1522 /* CircleButton.swift in Sources */,
+				88C08DDC2B0CFC4700E3D0C5 /* RenderDoctorCards.swift in Sources */,
 				F76B108F2B06ADA100EBB501 /* ContentView.swift in Sources */,
 				F72CCEE52B0AA816009F1522 /* CustomColors.swift in Sources */,
 				F76B10AC2B06C0CC00EBB501 /* SizesFile.swift in Sources */,
