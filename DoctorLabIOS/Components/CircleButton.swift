@@ -28,7 +28,7 @@ struct CircleButton: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .padding(padding)
-                .background(buttonColor)
+                .background(isButtonPressed ? Color.gray.opacity(0.2) : buttonColor)
                 .clipShape(Circle())
                 .frame(width: buttonSize,height: buttonSize)
             }.frame(width: buttonSize,height: buttonSize)

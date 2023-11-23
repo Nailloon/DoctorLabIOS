@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-struct ButtonListView: View {
+struct RenderCircleButtons: View {
     var spacingBetween: CGFloat
     let buttonsData: [[String: String]]
     var font: Font
@@ -26,7 +26,7 @@ struct ButtonListView: View {
     }
 }
 // Пример использования функции
-struct renderCircleButtonssView: PreviewProvider {
+struct renderCircleButtonsView: PreviewProvider {
     static var previews: some View {
         let buttons: [[String: String]] = [
             ["text": "Covid 19", "icon": "search-normal"],
@@ -35,6 +35,6 @@ struct renderCircleButtonssView: PreviewProvider {
             ["text": "Hospital", "icon": ""]
         ]
         
-        ButtonListView(spacingBetween:13, buttonsData: buttons, font: Fonts.categories,textColor: CustomColors.grey,buttonSize: 72 ,iconSize:24, spacing: 8, padding: 24, buttonColor: .blue)
+        RenderCircleButtons(spacingBetween:13, buttonsData: buttons, font: Fonts.categories,textColor: CustomColors.grey,buttonSize: 72 ,iconSize:24, spacing: 8, padding: 24, buttonColor: .blue)
     }
 }

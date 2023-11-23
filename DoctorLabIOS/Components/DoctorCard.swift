@@ -56,10 +56,11 @@ struct DoctorCard: View{
             HStack(spacing: 12){
                         HStack(spacing: 6){
                             Image(icon1).frame(width: SizeManager.smallIconSize,height: SizeManager.smallIconSize)
-                            Text(LocalizedStringKey(text1)).font(font12).foregroundColor(text1Color)                }.frame(alignment: .leading);                     HStack(spacing: 6){
+                            Text(LocalizedStringKey(text1)).font(font12).foregroundColor(text1Color)                }.frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/,maxWidth: .infinity,alignment: .leading)
+                HStack(spacing: 6){
                             Image(icon2).frame(width: SizeManager.smallIconSize, height: SizeManager.smallIconSize)
                             Text(LocalizedStringKey(text2)).font(font12).foregroundColor(text2Color)
-                        }
+                            }.frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/,maxWidth: .infinity,alignment: .leading)
             }
         }
         .padding(.horizontal,16).padding(.vertical,20)

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-struct DoctorsListView: View {
+struct RenderDoctorCards: View {
     var spacingBetween: CGFloat
     let doctorsData: [[String: String]]
     var cardColor: Color
@@ -37,6 +37,6 @@ struct renderDoctorCardsView: PreviewProvider {
             ["name": "drsyahir", "category":"generaldoctor","avatar": "doctoR1", "text0":"distance", "text1":"rating","text2":"time"]
 ]
         
-        DoctorsListView(spacingBetween: 12, doctorsData: doctors, cardColor: CustomColors.backgroundWhite, doctorNameColor: CustomColors.darkBlue, doctorCategoryColor: CustomColors.grey, font0: Fonts.doctorCategory, text0Color: CustomColors.grey, icon0: "location", font12: Fonts.details, text1Color: CustomColors.orange, icon1: "clockOrange", text2Color: CustomColors.blue, icon2: "clockBlue")
+        RenderDoctorCards(spacingBetween: 12, doctorsData: doctors, cardColor: CustomColors.backgroundWhite, doctorNameColor: CustomColors.darkBlue, doctorCategoryColor: CustomColors.grey, font0: Fonts.doctorCategory, text0Color: CustomColors.grey, icon0: "location", font12: Fonts.details, text1Color: CustomColors.orange, icon1: "clockOrange", text2Color: CustomColors.blue, icon2: "clockBlue")
     }
 }

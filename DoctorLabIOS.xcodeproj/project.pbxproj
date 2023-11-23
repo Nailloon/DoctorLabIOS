@@ -61,6 +61,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		880EE50C2B0F870300146C58 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F76B10A22B06B92B00EBB501 /* WelcomeBanner.swift */,
+				F72CCEE02B0A8961009F1522 /* CircleButton.swift */,
+				F76B10BF2B06FB8D00EBB501 /* SearchButton.swift */,
+				F76B10AD2B06D2FD00EBB501 /* DoctorsAppointment.swift */,
+				88E75A142B0C7E3B007EDD0D /* DoctorCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		F76B10802B06ADA000EBB501 = {
 			isa = PBXGroup;
 			children = (
@@ -80,19 +92,15 @@
 		F76B108B2B06ADA100EBB501 /* DoctorLabIOS */ = {
 			isa = PBXGroup;
 			children = (
+				880EE50C2B0F870300146C58 /* Components */,
 				F76B10C32B06FC9900EBB501 /* AuxiliaryTools */,
 				F76B10C22B06FC6100EBB501 /* Fonts */,
 				F76B10B72B06E36A00EBB501 /* Info.plist */,
 				F76B108C2B06ADA100EBB501 /* DoctorLabIOSApp.swift */,
 				F76B108E2B06ADA100EBB501 /* ContentView.swift */,
 				F76B10922B06ADA100EBB501 /* Preview Content */,
-				F76B10A22B06B92B00EBB501 /* WelcomeBanner.swift */,
 				F76B10902B06ADA100EBB501 /* Assets.xcassets */,
-				F76B10AD2B06D2FD00EBB501 /* DoctorsAppointment.swift */,
-				F76B10BF2B06FB8D00EBB501 /* SearchButton.swift */,
-				F72CCEE02B0A8961009F1522 /* CircleButton.swift */,
 				F72CCEE22B0A98A8009F1522 /* RenderCircleButtons.swift */,
-				88E75A142B0C7E3B007EDD0D /* DoctorCard.swift */,
 				88C08DDB2B0CFC4700E3D0C5 /* RenderDoctorCards.swift */,
 			);
 			path = DoctorLabIOS;
