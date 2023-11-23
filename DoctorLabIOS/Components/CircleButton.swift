@@ -43,6 +43,6 @@ struct CircleButton: View {
 
 struct CircleButton_Previews: PreviewProvider {
     static var previews: some View {
-        CircleButton(text: "Button",font: Fonts.categories, textColor: CustomColors.grey,icon: "search-normal", buttonSize: 72 ,iconSize: 24, spacing: 8, padding: 24, buttonColor: Color.black)
+        CircleButton(text: "Button",font: Fonts.PopMed_15, textColor: CustomColors.grey,icon: "search-normal", buttonSize: 72 ,iconSize: 24, spacing: 8, padding: 24, buttonColor: Color.black)
     }
 }

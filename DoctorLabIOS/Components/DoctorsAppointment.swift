@@ -28,8 +28,8 @@ struct DoctorAppointment: View{
                         .clipShape(Circle())
                 }
                 VStack(alignment: .leading, spacing: 8) {
-                    Text(LocalizedStringKey(doctor)).font(Fonts.doctorName).foregroundColor(.white)
-                    Text(LocalizedStringKey(doctorCategory)).font(Fonts.doctorCategory).foregroundColor(CustomColors.nearWhite)
+                    Text(LocalizedStringKey(doctor)).font(Fonts.PopBold_16).foregroundColor(.white)
+                    Text(LocalizedStringKey(doctorCategory)).font(Fonts.PopMed_14).foregroundColor(CustomColors.nearWhite)
                 }
                 .padding(0)
                 Spacer()
@@ -40,9 +40,9 @@ struct DoctorAppointment: View{
                 .foregroundColor(Color.white.opacity(0.15))
             HStack(alignment: .top, spacing: 12){
                 Image("calendar-2").frame(width: SizeManager.smallIconSize,height: SizeManager.smallIconSize)
-                Text(LocalizedStringKey(day)).font(Fonts.details).foregroundColor(.white)
+                Text(LocalizedStringKey(day)).font(Fonts.PopMed_12).foregroundColor(.white)
                 Image("clock").frame(width: SizeManager.smallIconSize, height: SizeManager.smallIconSize)
-                Text(LocalizedStringKey(time)).font(Fonts.details).foregroundColor(.white)
+                Text(LocalizedStringKey(time)).font(Fonts.PopMed_12).foregroundColor(.white)
             }
         }
         .padding(20)

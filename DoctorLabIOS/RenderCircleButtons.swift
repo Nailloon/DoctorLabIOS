@@ -35,6 +35,6 @@ struct renderCircleButtonsView: PreviewProvider {
             ["text": "Hospital", "icon": ""]
         ]
         
-        RenderCircleButtons(spacingBetween:13, buttonsData: buttons, font: Fonts.categories,textColor: CustomColors.grey,buttonSize: 72 ,iconSize:24, spacing: 8, padding: 24, buttonColor: .blue)
+        RenderCircleButtons(spacingBetween:13, buttonsData: buttons, font: Fonts.PopMed_15,textColor: CustomColors.grey,buttonSize: 72 ,iconSize:24, spacing: 8, padding: 24, buttonColor: .blue)
     }
 }

@@ -6,12 +6,12 @@
 //
 import SwiftUI
 struct Fonts {
-    static let hello = Font.custom("Poppins-Medium", size: 16)
-    static let hi = Font.custom("Poppins-Bold", size: 20).weight(.bold)
-    static let doctorName = Font.custom("Poppins-Bold", size: 16).weight(.bold)
-    static let doctorCategory = Font.custom("Poppins-Medium", size: 14)
-    static let details = Font.custom("Poppins-Medium", size: 12)
-    static let categories = Font.custom("Poppins-Medium", size: 15)
-    static let nearDoctor = Font.custom("Poppins-Medium", size: 16).weight(.semibold)
-    static let underMenuText = Font.custom("Nunito", size: 14).weight(.bold)
+    static let PopMed_16 = Font.custom("Poppins-Medium", size: 16)
+    static let PopBold_20 = Font.custom("Poppins-Bold", size: 20).weight(.bold)
+    static let PopBold_16 = Font.custom("Poppins-Bold", size: 16).weight(.bold)
+    static let PopMed_14 = Font.custom("Poppins-Medium", size: 14)
+    static let PopMed_12 = Font.custom("Poppins-Medium", size: 12)
+    static let PopMed_15 = Font.custom("Poppins-Medium", size: 15)
+    static let PopSemiBold_16 = Font.custom("Poppins-Medium", size: 16).weight(.semibold)
+    static let NunBold_14 = Font.custom("Nunito-Bold", size: 14)
 }

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8885DAC02B0FCFC600C736FD /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885DABF2B0FCFC600C736FD /* TabView.swift */; };
+		88B9EF2A2B0FE6850058E246 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9EF292B0FE6850058E246 /* Data.swift */; };
+		88B9EF2C2B0FE6C20058E246 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9EF2B2B0FE6C20058E246 /* Home.swift */; };
+		88B9EF2E2B0FE7830058E246 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9EF2D2B0FE7830058E246 /* Calendar.swift */; };
+		88B9EF302B0FE8080058E246 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9EF2F2B0FE8080058E246 /* Chat.swift */; };
+		88B9EF322B0FE85C0058E246 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9EF312B0FE85C0058E246 /* Profile.swift */; };
 		88C08DDC2B0CFC4700E3D0C5 /* RenderDoctorCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C08DDB2B0CFC4700E3D0C5 /* RenderDoctorCards.swift */; };
 		88E75A152B0C7E3B007EDD0D /* DoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E75A142B0C7E3B007EDD0D /* DoctorCard.swift */; };
 		F72CCEE12B0A8961009F1522 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72CCEE02B0A8961009F1522 /* CircleButton.swift */; };
@@ -28,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8885DABF2B0FCFC600C736FD /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		88B9EF272B0FDF390058E246 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Bold.ttf"; path = "../../../../Downloads/Nunito-3/Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		88B9EF292B0FE6850058E246 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		88B9EF2B2B0FE6C20058E246 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		88B9EF2D2B0FE7830058E246 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		88B9EF2F2B0FE8080058E246 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		88B9EF312B0FE85C0058E246 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		88C08DDB2B0CFC4700E3D0C5 /* RenderDoctorCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderDoctorCards.swift; sourceTree = "<group>"; };
 		88E75A142B0C7E3B007EDD0D /* DoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
 		F72CCEE02B0A8961009F1522 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
@@ -64,6 +77,7 @@
 		880EE50C2B0F870300146C58 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8885DABF2B0FCFC600C736FD /* TabView.swift */,
 				F76B10A22B06B92B00EBB501 /* WelcomeBanner.swift */,
 				F72CCEE02B0A8961009F1522 /* CircleButton.swift */,
 				F76B10BF2B06FB8D00EBB501 /* SearchButton.swift */,
@@ -71,6 +85,17 @@
 				88E75A142B0C7E3B007EDD0D /* DoctorCard.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		88B9EF282B0FE5880058E246 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				88B9EF2B2B0FE6C20058E246 /* Home.swift */,
+				88B9EF2D2B0FE7830058E246 /* Calendar.swift */,
+				88B9EF2F2B0FE8080058E246 /* Chat.swift */,
+				88B9EF312B0FE85C0058E246 /* Profile.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		F76B10802B06ADA000EBB501 = {
@@ -92,6 +117,7 @@
 		F76B108B2B06ADA100EBB501 /* DoctorLabIOS */ = {
 			isa = PBXGroup;
 			children = (
+				88B9EF282B0FE5880058E246 /* Screens */,
 				880EE50C2B0F870300146C58 /* Components */,
 				F76B10C32B06FC9900EBB501 /* AuxiliaryTools */,
 				F76B10C22B06FC6100EBB501 /* Fonts */,
@@ -120,6 +146,7 @@
 				F76B10B52B06E1B200EBB501 /* Poppins-Medium.ttf */,
 				F76B10AF2B06E15F00EBB501 /* Poppins-SemiBold.ttf */,
 				F76B10B12B06E16D00EBB501 /* Poppins-Bold.ttf */,
+				88B9EF272B0FDF390058E246 /* Nunito-Bold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -127,6 +154,7 @@
 		F76B10C32B06FC9900EBB501 /* AuxiliaryTools */ = {
 			isa = PBXGroup;
 			children = (
+				88B9EF292B0FE6850058E246 /* Data.swift */,
 				F76B10AB2B06C0CC00EBB501 /* SizesFile.swift */,
 				F76B10A02B06B5EF00EBB501 /* FontsFile.swift */,
 				F76B10A42B06BB6A00EBB501 /* Localizable.strings */,
@@ -211,10 +239,16 @@
 			files = (
 				88E75A152B0C7E3B007EDD0D /* DoctorCard.swift in Sources */,
 				F76B10C02B06FB8D00EBB501 /* SearchButton.swift in Sources */,
+				88B9EF302B0FE8080058E246 /* Chat.swift in Sources */,
+				8885DAC02B0FCFC600C736FD /* TabView.swift in Sources */,
+				88B9EF2E2B0FE7830058E246 /* Calendar.swift in Sources */,
 				F72CCEE32B0A98A8009F1522 /* RenderCircleButtons.swift in Sources */,
 				F76B10A12B06B5EF00EBB501 /* FontsFile.swift in Sources */,
+				88B9EF322B0FE85C0058E246 /* Profile.swift in Sources */,
 				F76B10A32B06B92B00EBB501 /* WelcomeBanner.swift in Sources */,
 				F72CCEE12B0A8961009F1522 /* CircleButton.swift in Sources */,
+				88B9EF2C2B0FE6C20058E246 /* Home.swift in Sources */,
+				88B9EF2A2B0FE6850058E246 /* Data.swift in Sources */,
 				88C08DDC2B0CFC4700E3D0C5 /* RenderDoctorCards.swift in Sources */,
 				F76B108F2B06ADA100EBB501 /* ContentView.swift in Sources */,
 				F72CCEE52B0AA816009F1522 /* CustomColors.swift in Sources */,

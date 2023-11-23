@@ -13,4 +13,5 @@ enum CustomColors {
     static let blue = Color("Blue")
     static let orange = Color("Orange")
     static let darkBlue = Color("Black")
+    static let skyBlue = Color("SkyBlue")
 }

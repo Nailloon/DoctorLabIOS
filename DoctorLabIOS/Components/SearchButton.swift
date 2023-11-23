@@ -15,7 +15,7 @@ struct SearchButton: View{
         }) {
             HStack {
                 Image("search-normal")
-                Text(LocalizedStringKey(text)).font(Fonts.categories).foregroundColor(CustomColors.grey)
+                Text(LocalizedStringKey(text)).font(Fonts.PopMed_15).foregroundColor(CustomColors.grey)
             }
             .padding(16)
             .frame(width: SizeManager.windowWidth, alignment: .leading) .background(isButtonPressed ? Color.gray.opacity(0.2) : CustomColors.backgroundWhite)

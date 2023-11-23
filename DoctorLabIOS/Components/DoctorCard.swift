@@ -40,8 +40,8 @@ struct DoctorCard: View{
                 }
                 VStack(alignment: .leading, spacing: 8) {
                     Text(LocalizedStringKey(doctorName))
-                        .font(Fonts.doctorName).foregroundColor(doctorNameColor)
-                    Text(LocalizedStringKey(doctorCategory)).font(Fonts.doctorCategory).foregroundColor(doctorCategoryColor)
+                        .font(Fonts.PopBold_16).foregroundColor(doctorNameColor)
+                    Text(LocalizedStringKey(doctorCategory)).font(Fonts.PopMed_14).foregroundColor(doctorCategoryColor)
                 }
                 .padding(0)
                 Spacer()
@@ -71,6 +71,6 @@ struct DoctorCard: View{
 }
 struct DoctorCard_Previews: PreviewProvider {
     static var previews: some View {
-        DoctorCard(cardColor: CustomColors.backgroundWhite, doctorName: "docName2", doctorNameColor: CustomColors.darkBlue, doctorCategory: "docCategory2", doctorCategoryColor: CustomColors.grey, avatar: "doctoR2", font0: Fonts.doctorCategory, icon0: "location", text0: "distance", text0Color: CustomColors.grey, font12: Fonts.details, icon1: "clockOrange", text1: "rating", text1Color: CustomColors.orange, icon2: "clockBlue", text2: "time", text2Color: CustomColors.blue)
+        DoctorCard(cardColor: CustomColors.backgroundWhite, doctorName: "docName2", doctorNameColor: CustomColors.darkBlue, doctorCategory: "docCategory2", doctorCategoryColor: CustomColors.grey, avatar: "doctoR2", font0: Fonts.PopMed_14, icon0: "location", text0: "distance", text0Color: CustomColors.grey, font12: Fonts.PopMed_12, icon1: "clockOrange", text1: "rating", text1Color: CustomColors.orange, icon2: "clockBlue", text2: "time", text2Color: CustomColors.blue)
     }
 }
