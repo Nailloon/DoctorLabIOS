@@ -24,7 +24,7 @@ struct MyTabBar: View {
         .profile: "Profile"
     ]
     var body: some View {
-        HStack(spacing: 12){
+        HStack(spacing: PadSpacing.normalSpace){
             ForEach(Tab.allCases, id: \.rawValue) { tab in
                 HStack(alignment: .center, spacing: PadSpacing.smallSpace) {
                     HStack(alignment: .center, spacing: selectedTab == tab ? SizeManager.smalSize : 0)
