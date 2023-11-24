@@ -31,7 +31,7 @@ struct ContentView: View {
            switch tab {
            case .home:
                HomeView()
-           case .calendar:
+           case .Calendar:
                CalendarView()
            case .chat:
                ChatView()

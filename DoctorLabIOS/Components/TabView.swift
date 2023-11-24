@@ -9,7 +9,7 @@ import SwiftUI
 
 enum Tab: String, CaseIterable {
     case home
-    case calendar
+    case Calendar
     case chat
     case profile
 
@@ -19,7 +19,7 @@ struct MyTabBar: View {
     @Binding var selectedTab: Tab
     var tabText: [Tab: String] = [
         .home: "Home",
-        .calendar: "Calendar",
+        .Calendar: "Calendar",
         .chat: "Chat",
         .profile: "Profile"
     ]
