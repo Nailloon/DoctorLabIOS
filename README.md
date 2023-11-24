@@ -6,6 +6,6 @@ This is a test case for iOS. This application has ine home screen and 3 others. 
 
 ## Screenshots
 
-![App Screenshot1](screenshot1)
-![App Screenshot2](screenshot2)
-![App Screenshot3](screenshot3)
+![App Screenshot1](screenshot1.png)
+![App Screenshot2](screenshot2.png)
+![App Screenshot3](screenshot3.png)
