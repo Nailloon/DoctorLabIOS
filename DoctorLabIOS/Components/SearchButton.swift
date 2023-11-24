@@ -17,7 +17,7 @@ struct SearchButton: View{
                 Image("search-normal")
                 Text(LocalizedStringKey(text)).font(Fonts.PopMed_15).foregroundColor(CustomColors.grey)
             }
-            .padding(16)
+            .padding(PadSpacing.bigSpace)
             .frame(width: SizeManager.windowWidth, alignment: .leading) .background(isButtonPressed ? Color.gray.opacity(0.2) : CustomColors.backgroundWhite)
             .cornerRadius(12)
         }

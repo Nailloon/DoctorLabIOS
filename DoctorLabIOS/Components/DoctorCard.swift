@@ -25,7 +25,7 @@ struct DoctorCard: View{
     var text2: String
     var text2Color: Color
     var body: some View{
-        VStack(spacing: 16) {
+        VStack(spacing: PadSpacing.bigSpace) {
             HStack(){
                 ZStack(){
                     Circle()
@@ -38,12 +38,11 @@ struct DoctorCard: View{
                         .clipped()
                         .clipShape(Circle())
                 }
-                VStack(alignment: .leading, spacing: 8) {
+                VStack(alignment: .leading, spacing: PadSpacing.smallSpace) {
                     Text(LocalizedStringKey(doctorName))
                         .font(Fonts.PopBold_16).foregroundColor(doctorNameColor)
                     Text(LocalizedStringKey(doctorCategory)).font(Fonts.PopMed_14).foregroundColor(doctorCategoryColor)
                 }
-                .padding(0)
                 Spacer()
                 HStack(){
                     Image(icon0).frame(width: SizeManager.smallIconSize, height: SizeManager.smallIconSize)
@@ -53,17 +52,17 @@ struct DoctorCard: View{
             Rectangle()
                 .frame(height: 1)
                 .foregroundColor(Color.white.opacity(0.15))
-            HStack(spacing: 12){
-                        HStack(spacing: 6){
+            HStack(spacing: PadSpacing.normalSpace){
+                HStack(spacing: PadSpacing.smallestSpace){
                             Image(icon1).frame(width: SizeManager.smallIconSize,height: SizeManager.smallIconSize)
                             Text(LocalizedStringKey(text1)).font(font12).foregroundColor(text1Color)                }.frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/,maxWidth: .infinity,alignment: .leading)
-                HStack(spacing: 6){
+                HStack(spacing: PadSpacing.smallestSpace){
                             Image(icon2).frame(width: SizeManager.smallIconSize, height: SizeManager.smallIconSize)
                             Text(LocalizedStringKey(text2)).font(font12).foregroundColor(text2Color)
                             }.frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/,maxWidth: .infinity,alignment: .leading)
             }
         }
-        .padding(.horizontal,16).padding(.vertical,20)
+        .padding(.horizontal,PadSpacing.bigSpace).padding(.vertical,PadSpacing.hugeSpace)
         .frame(width: SizeManager.windowWidth, alignment: .top)
         .background(cardColor)
         .cornerRadius(12)

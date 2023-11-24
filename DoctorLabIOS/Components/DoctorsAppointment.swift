@@ -12,7 +12,7 @@ struct DoctorAppointment: View{
     var day: String
     var time: String
     var body: some View{
-        VStack(alignment: .center, spacing: 16) {
+        VStack(alignment: .center, spacing: PadSpacing.bigSpace) {
             HStack(){
                 ZStack(){
                     Circle()
@@ -27,25 +27,24 @@ struct DoctorAppointment: View{
                         .clipped()
                         .clipShape(Circle())
                 }
-                VStack(alignment: .leading, spacing: 8) {
+                VStack(alignment: .leading, spacing: PadSpacing.smallSpace) {
                     Text(LocalizedStringKey(doctor)).font(Fonts.PopBold_16).foregroundColor(.white)
                     Text(LocalizedStringKey(doctorCategory)).font(Fonts.PopMed_14).foregroundColor(CustomColors.nearWhite)
                 }
-                .padding(0)
                 Spacer()
-                    Image("arrow-right").frame(width: SizeManager.arrowIconSize, height: SizeManager.arrowIconSize)
+                    Image("arrow-right").frame(width: SizeManager.mediumIconSize, height: SizeManager.mediumIconSize)
             }
             Rectangle()
                 .frame(height: 1)
                 .foregroundColor(Color.white.opacity(0.15))
-            HStack(alignment: .top, spacing: 12){
+            HStack(alignment: .top, spacing: PadSpacing.normalSpace){
                 Image("calendar-2").frame(width: SizeManager.smallIconSize,height: SizeManager.smallIconSize)
                 Text(LocalizedStringKey(day)).font(Fonts.PopMed_12).foregroundColor(.white)
                 Image("clock").frame(width: SizeManager.smallIconSize, height: SizeManager.smallIconSize)
                 Text(LocalizedStringKey(time)).font(Fonts.PopMed_12).foregroundColor(.white)
             }
         }
-        .padding(20)
+        .padding(PadSpacing.hugeSpace)
         .frame(width: SizeManager.windowWidth, alignment: .top)
         .background(CustomColors.blue)
         .cornerRadius(12)

@@ -9,7 +9,7 @@ import SwiftUI
 enum CustomColors {
     static let grey = Color("Grey")
     static let nearWhite = Color("NearWhite")
-    static let backgroundWhite = Color("BackgroundWhite")
+    static let backgroundWhite = Color("BackgroundColor")
     static let blue = Color("Blue")
     static let orange = Color("Orange")
     static let darkBlue = Color("Black")

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8885DAC02B0FCFC600C736FD /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885DABF2B0FCFC600C736FD /* TabView.swift */; };
+		88B229BD2B11237B00E847D3 /* PadSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B229BC2B11237B00E847D3 /* PadSpacing.swift */; };
 		88B9EF2A2B0FE6850058E246 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9EF292B0FE6850058E246 /* Data.swift */; };
 		88B9EF2C2B0FE6C20058E246 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9EF2B2B0FE6C20058E246 /* Home.swift */; };
 		88B9EF2E2B0FE7830058E246 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9EF2D2B0FE7830058E246 /* Calendar.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		8885DABF2B0FCFC600C736FD /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		88B229BC2B11237B00E847D3 /* PadSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadSpacing.swift; sourceTree = "<group>"; };
 		88B9EF272B0FDF390058E246 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Bold.ttf"; path = "../../../../Downloads/Nunito-3/Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		88B9EF292B0FE6850058E246 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		88B9EF2B2B0FE6C20058E246 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				F76B10A02B06B5EF00EBB501 /* FontsFile.swift */,
 				F76B10A42B06BB6A00EBB501 /* Localizable.strings */,
 				F72CCEE42B0AA816009F1522 /* CustomColors.swift */,
+				88B229BC2B11237B00E847D3 /* PadSpacing.swift */,
 			);
 			path = AuxiliaryTools;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				F76B10A32B06B92B00EBB501 /* WelcomeBanner.swift in Sources */,
 				F72CCEE12B0A8961009F1522 /* CircleButton.swift in Sources */,
 				88B9EF2C2B0FE6C20058E246 /* Home.swift in Sources */,
+				88B229BD2B11237B00E847D3 /* PadSpacing.swift in Sources */,
 				88B9EF2A2B0FE6850058E246 /* Data.swift in Sources */,
 				88C08DDC2B0CFC4700E3D0C5 /* RenderDoctorCards.swift in Sources */,
 				F76B108F2B06ADA100EBB501 /* ContentView.swift in Sources */,

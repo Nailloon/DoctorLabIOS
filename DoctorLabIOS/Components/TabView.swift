@@ -26,11 +26,11 @@ struct MyTabBar: View {
     var body: some View {
         HStack(spacing: 12){
             ForEach(Tab.allCases, id: \.rawValue) { tab in
-                HStack(alignment: .center, spacing: 8) {
-                    HStack(alignment: .center, spacing: selectedTab == tab ? 8 : 0)
+                HStack(alignment: .center, spacing: PadSpacing.smallSpace) {
+                    HStack(alignment: .center, spacing: selectedTab == tab ? SizeManager.smalSize : 0)
                     {
                         Image(tab.rawValue)
-                            .frame(width: 24, height: 24)
+                            .frame(width: SizeManager.mediumIconSize, height: SizeManager.mediumIconSize)
                             .colorMultiply (selectedTab == tab ? CustomColors.skyBlue : CustomColors.grey)
                         Text(selectedTab == tab ? LocalizedStringKey(tabText[tab] ?? ""):"")
                             .font(Fonts.NunBold_14)
@@ -38,8 +38,8 @@ struct MyTabBar: View {
                             .lineLimit(1)
                     }
                 }
-                .padding(12)
-                .frame(maxWidth: selectedTab == tab ? .infinity : 65)
+                .padding(PadSpacing.normalSpace)
+                .frame(maxWidth: selectedTab == tab ? .infinity : SizeManager.bottomFrameSize)
                 .background(selectedTab == tab ? CustomColors.blue.opacity(0.1) : .white)
                 .cornerRadius(12)
                 .onTapGesture {
@@ -49,9 +49,9 @@ struct MyTabBar: View {
                 }
             }
         }
-        .padding(.horizontal, 24)
-        .padding(.vertical, 16)
-        .frame(width: .infinity, alignment: .center)
+        .padding(.horizontal, PadSpacing.biggestSpace)
+        .padding(.vertical, PadSpacing.bigSpace)
+        .frame(width: SizeManager.allScreenWidth, alignment: .center)
         .background(.white)
         .overlay(Rectangle().frame(height: 1).foregroundColor(CustomColors.backgroundWhite), alignment: .top)
     }
