@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8885DAC02B0FCFC600C736FD /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885DABF2B0FCFC600C736FD /* TabView.swift */; };
+		88A5B5C22B11E9F8004A6A4A /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88A5B5C12B11E9F8004A6A4A /* Nunito-Bold.ttf */; };
 		88B229BD2B11237B00E847D3 /* PadSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B229BC2B11237B00E847D3 /* PadSpacing.swift */; };
 		88B9EF2A2B0FE6850058E246 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9EF292B0FE6850058E246 /* Data.swift */; };
 		88B9EF2C2B0FE6C20058E246 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9EF2B2B0FE6C20058E246 /* Home.swift */; };
@@ -36,8 +37,8 @@
 
 /* Begin PBXFileReference section */
 		8885DABF2B0FCFC600C736FD /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		88A5B5C12B11E9F8004A6A4A /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		88B229BC2B11237B00E847D3 /* PadSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadSpacing.swift; sourceTree = "<group>"; };
-		88B9EF272B0FDF390058E246 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Bold.ttf"; path = "../../../../Downloads/Nunito-3/Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		88B9EF292B0FE6850058E246 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		88B9EF2B2B0FE6C20058E246 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		88B9EF2D2B0FE7830058E246 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
@@ -148,7 +149,7 @@
 				F76B10B52B06E1B200EBB501 /* Poppins-Medium.ttf */,
 				F76B10AF2B06E15F00EBB501 /* Poppins-SemiBold.ttf */,
 				F76B10B12B06E16D00EBB501 /* Poppins-Bold.ttf */,
-				88B9EF272B0FDF390058E246 /* Nunito-Bold.ttf */,
+				88A5B5C12B11E9F8004A6A4A /* Nunito-Bold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -224,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A5B5C22B11E9F8004A6A4A /* Nunito-Bold.ttf in Resources */,
 				F76B10942B06ADA100EBB501 /* Preview Assets.xcassets in Resources */,
 				F76B10BC2B06E8A400EBB501 /* Poppins-SemiBold.ttf in Resources */,
 				F76B10A52B06BB6A00EBB501 /* Localizable.strings in Resources */,
