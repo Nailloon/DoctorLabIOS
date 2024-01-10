@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  DoctorLabIOS
+
+  Created by user225687 on 11/16/23.
+  
+*/
+"welcome_message" = "Hi, ";
+"hello" = "Hello,";
+"drsyahir" = "Dr. Imran Syahir";
+"generaldoctor"="General Doctor";
+"dayJune" = "Sunday, 12 June";
+"timeJune" = "11:00 - 12:00 AM";
+"searchText"="Search doctor or health issue";
+"docName2" = "Dr. Joseph Brostito";
+"docCategory2" = "Dentist Specialist";
+"distance" = "1.2 KM";
+"rating" = "4.8 (120 Reviews)";
+"time" = "Open at 17.00";
+"homePage" = "Home";
+"near" = "Near Doctor";
